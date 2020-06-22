@@ -1,0 +1,64 @@
+body {
+  font-family: 'MuseoModerno', open-sans;
+  font-weight: 400;
+  width: 100%;
+  margin: 0;
+}
+
+h4 {
+  margin: 0;
+  font-size: 14px;
+}
+
+.container {
+  height: auto;
+  padding: 10px 10px 0 10px;
+}
+
+.myProgress {
+  height: 30px;
+  width: 100%;
+  background-color: #dfdbdb;
+}
+
+#myBar {
+  width: 1%;
+  height: 30px;
+  background-color: green;
+}
+
+.bar-name {
+  padding-left: 10px;
+  width: 100px;
+  height: 30px;
+  background-color: indianred;
+}
+
+.flex-col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.flex-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+}
+/*# sourceMappingURL=styles.css.map */

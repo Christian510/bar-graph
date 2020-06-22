@@ -1,0 +1,51 @@
+
+// font-family: 'MuseoModerno', cursive;
+// font-family: 'Nunito', sans-serif;
+// font-family: 'Oswald', sans-serif;
+// font-family: 'Roboto', sans-serif;
+// font-family: 'Source Sans Pro', sans-serif;
+
+body {
+    font-family: 'MuseoModerno', open-sans;
+    font-weight: 400;
+    width: 100%;
+    margin: 0;
+}
+h4 {
+    margin: 0;
+    font-size: 14px;
+}
+
+.container {
+    height: auto;
+   padding: 10px 10px 0 10px; 
+}
+.myProgress {
+    height: 30px;
+    width: 100%;
+    background-color: rgb(223, 219, 219);
+}
+
+#myBar {
+    width: 1%;
+    height: 30px;
+    background-color: green;
+}
+.bar-name {
+    padding-left: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: indianred;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: flex-start;
+}
